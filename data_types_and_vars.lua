@@ -46,6 +46,6 @@ local c = 20
 print(C, c)
 
 _G.Hello = "Hello there!" -- another way to create a global variable
-x = 12
+local x = 12
 print(
     type(x)) -- get the type of the variable
