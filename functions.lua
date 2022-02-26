@@ -18,7 +18,7 @@ end
 
 local x = sum(2, 3)
 print(x)
-print(y) -- cannot access y because it is local to the function
+-- print(y) -- cannot access y because it is local to the function, so it returns nil
 print(z) -- can access z because it is global
         -- it retuns 5 because the function was last called with 2 and 3
         -- if the functions wasn't called with 2 and 3, it would return nil
